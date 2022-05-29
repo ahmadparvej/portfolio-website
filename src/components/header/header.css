@@ -1,10 +1,13 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 6rem;
     /* overflow: hidden; */
 }
 
 .header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     height: 100%;
     position: relative;
@@ -23,31 +26,27 @@ header{
 
 .header__socials{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    gap:0.8rem;
-    position:absolute;
-    left: 0;
-    bottom: 3rem;
+    gap:2rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    align-content: space-around;
 }
-
-.header__socials::after{
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+.iAm{
+    display: flex;
+    flex-direction: column;
 }
-
 
 /* =========== ME ============ */
 
 .me{
     background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: 30rem;
+    width: 16rem;
+    height: 23rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
+    right: 5rem;
+    /* margin-top: 4rem; */
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1rem 0 1.5rem 0;
@@ -69,6 +68,9 @@ header{
     header{
         height: 68vh;
     }
+    .header__container{
+        display: block;
+    }
 }
 /* =============== MEDIA QUERIS (SMALL DEVICES) ============== */
 @media screen and (max-width:600px){
@@ -78,6 +80,10 @@ header{
     .header__socials, .scroll__down{
         display: none;
     }
+    .header__container{
+        display: block;
+    }
+    
 }
 
 

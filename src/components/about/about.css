@@ -26,7 +26,7 @@
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .about__card{
@@ -34,7 +34,7 @@
     border: 1px solid transparent;
     font-size: 1.2rem;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align:center;
     transition: var(--transition);
 }
@@ -47,7 +47,7 @@
 .about__icon{
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .about__card h5{
@@ -60,7 +60,7 @@
 }
 
 .about__content p{
-    margin: 2rem 0 2.6rem;
+    margin: 1.5rem 0 0.8rem;
     color: var(--color-light);
 }
 
