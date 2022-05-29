@@ -44,9 +44,7 @@ header{
     background: linear-gradient(var(--color-primary),transparent);
     width: 16rem;
     height: 23rem;
-    position: absolute;
-    right: 5rem;
-    /* margin-top: 4rem; */
+    margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1rem 0 1.5rem 0;
@@ -72,16 +70,24 @@ header{
         display: block;
     }
 }
+
 /* =============== MEDIA QUERIS (SMALL DEVICES) ============== */
 @media screen and (max-width:600px){
     header{
         height: 100vh;
+        padding-top: 2rem;
     }
     .header__socials, .scroll__down{
         display: none;
     }
     .header__container{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .me{
+        margin: auto;
+        margin-top: 4rem;
     }
     
 }

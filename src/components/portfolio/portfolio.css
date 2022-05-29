@@ -13,3 +13,39 @@
 .portfolio__item:hover{
     background: transparent;
 }
+
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3{
+    font-size: 1rem;
+    margin: 1.2rem 0 2rem;
+}
+.portfolio__item-stack{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio__item-cta{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+/* =============== MEDIA QUERIS (MEDIUM DEVICES) ============== */
+@media screen and (max-width:1024px){
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    }
+}
+
+/* =============== MEDIA QUERIS (SMALL DEVICES) ============== */
+@media screen and (max-width:600px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+    }
+}
+
