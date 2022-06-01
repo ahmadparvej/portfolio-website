@@ -31,7 +31,8 @@ const About = () => {
               <small>Enthusiastic Fresher</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptates cum dolorum voluptate cumque aliquam ipsa amet voluptatem iusto dolores, nemo dicta vitae aperiam cupiditate error minus rerum perferendis incidunt.</p>
+          <p>An enthusiastic and result-driven Full-stack web developer dedicated to building optimized user-focused websites. Seeking a
+role wherein I can directly make an impact on the company's growth as well as my career.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

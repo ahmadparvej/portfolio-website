@@ -1,31 +1,30 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/pharmeasy.png";
+import IMG2 from "../../assets/Snapdeal.png";
+import IMG3 from "../../assets/spareshub.png";
 
 const data =[
   {
     id:1,
     image:IMG1,
-    title:"Sparshub.com automobiles-marketplace",
-    github:"https://github.com/ahmadparvej/spareshub-automobiles",
-    demo:"https://spareshub-clone.netlify.app/",
-    tech:["HTML","CSS","JavaScript"],
+    title:"Pharmeasy.com-clone",
+    github:"https://github.com/ahmadparvej/pharmeasy-clone",
+    demo:"https://pharmeasy-clone-website.netlify.app/",
+    tech:["React","Redux","CSS","JavaScript"],
   },
   {
     id:2,
     image:IMG2,
-    title:"Sparshub.com automobiles-marketplace",
-    github:"https://github.com/ahmadparvej/spareshub-automobiles",
-    demo:"https://spareshub-clone.netlify.app/",
-    tech:["HTML","CSS","JavaScript"],
+    title:"Snapdeal.com-clone",
+    github:"https://github.com/AkshayPatil96/Snapdeal-Clone",
+    demo:"https://papaya-shortbread-8d7bc4.netlify.app/",
+    tech:["HTML","CSS","JavaScript","Bootstap"],
   },
   {
     id:3,
     image:IMG3,
-    title:"Sparshub.com automobiles-marketplace",
+    title:"Sparshub.com automobiles-marketplace clone",
     github:"https://github.com/ahmadparvej/spareshub-automobiles",
     demo:"https://spareshub-clone.netlify.app/",
     tech:["HTML","CSS","JavaScript"],
@@ -35,7 +34,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div className="container portfolio__container">
         {data.map((elem)=>{
           return (

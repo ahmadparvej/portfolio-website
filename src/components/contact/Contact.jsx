@@ -14,7 +14,6 @@ const Contact = () => {
 
     emailjs.sendForm('service_8tyrjfm', 'template_3100qme', form.current, 'zyR7xA1RIutW_lYr2')
       .then((result) => {
-          console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
@@ -37,12 +36,6 @@ const Contact = () => {
             <h4>Twitter</h4>
             <h5>codemagzine</h5>
             <a href="https://twitter.com/codemagzine" target="_blank">Send a messege</a>
-          </article>
-          <article className="contact__option">
-            <RiWhatsappFill className="contact__option-icon"/>
-            <h4>WhatsApp</h4>
-            <h5>+91 6397745667</h5>
-            <a href="https://api.whatsapp.com/send?phone=6397745667" target="_blank">Send a messege</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
