@@ -5,11 +5,10 @@ header{
 }
 
 .header__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     text-align: center;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
 }
 
@@ -28,6 +27,7 @@ header{
     display: flex;
     /* flex-direction: column; */
     align-items: center;
+    justify-content: center;
     gap:2rem;
     font-size: 2rem;
     margin-top: 4rem;
@@ -39,7 +39,11 @@ header{
 }
 
 /* =========== ME ============ */
-
+.me-container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 16rem;
@@ -47,6 +51,7 @@ header{
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1rem 0 1.5rem 0;
+    display: flex;
 }
 
 /* =========== SCROLL DOWN ============= */
@@ -63,10 +68,18 @@ header{
 /* =============== MEDIA QUERIS (MEDIUM DEVICES) ============== */
 @media screen and (max-width:1024px){
     header{
-        height: 68vh;
+        height: 100vh;
     }
     .header__container{
-        display: block;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:900px){
+    header{
+        height: 100vh;
+    }
+    .header__container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
@@ -80,13 +93,12 @@ header{
         display: none;
     }
     .header__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        grid-template-columns: repeat(1,1fr);
     }
     .me{
-        margin: auto;
-        margin-top: 4rem;
+        width: 15rem;
+        height: 20rem;
+        margin-top: 2rem;
     }
     
 }
