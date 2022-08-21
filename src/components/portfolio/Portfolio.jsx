@@ -1,33 +1,33 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from "../../assets/pharmeasy.png";
-import IMG2 from "../../assets/Snapdeal.png";
-import IMG3 from "../../assets/spareshub.png";
+import IMG1 from "../../assets/timely.png";
+import IMG2 from "../../assets/CodeEditor Collab (2).png";
+import IMG3 from "../../assets/Gearbest.png";
 
 const data =[
   {
     id:1,
     image:IMG1,
-    title:"Pharmeasy.com-clone",
-    github:"https://github.com/ahmadparvej/pharmeasy-clone",
-    demo:"https://pharmeasy-clone-website.netlify.app/",
-    tech:["React","Redux","CSS","JavaScript"],
+    title:"Timely.com-clone",
+    github:"https://github.com/ahmadparvej/Timely-App",
+    demo:"https://timely-app-clone.netlify.app/",
+    tech:["React","Redux","Chakra-UI","MongoDB","Express"],
   },
   {
     id:2,
     image:IMG2,
-    title:"Snapdeal.com-clone",
-    github:"https://github.com/AkshayPatil96/Snapdeal-Clone",
-    demo:"https://papaya-shortbread-8d7bc4.netlify.app/",
-    tech:["HTML","CSS","JavaScript","Bootstap"],
+    title:"Code Editor Collab",
+    github:"https://github.com/ahmadparvej/online-pair-programming",
+    demo:"https://code-together-realtime.herokuapp.com/",
+    tech:["React","Express","Socket.io"],
   },
   {
     id:3,
     image:IMG3,
-    title:"Sparshub.com automobiles-marketplace clone",
-    github:"https://github.com/ahmadparvej/spareshub-automobiles",
-    demo:"https://spareshub-clone.netlify.app/",
-    tech:["HTML","CSS","JavaScript"],
+    title:"Gearbest.com-clone",
+    github:"https://github.com/ahmadparvej/gearbest",
+    demo:"https://gearbest-personal-clone.herokuapp.com/",
+    tech:["React","Redux","Chakra-UI"],
   }
 ]
 const Portfolio = () => {
