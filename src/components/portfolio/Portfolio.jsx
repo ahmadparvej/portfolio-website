@@ -8,7 +8,7 @@ const data =[
   {
     id:1,
     image:IMG1,
-    title:"Timely.com-clone",
+    title:"Timely.com clone",
     github:"https://github.com/ahmadparvej/Timely-App",
     demo:"https://timely-app-clone.netlify.app/",
     tech:["React","Redux","Chakra-UI","MongoDB","Express"],
@@ -24,7 +24,7 @@ const data =[
   {
     id:3,
     image:IMG3,
-    title:"Gearbest.com-clone",
+    title:"Gearbest.com clone",
     github:"https://github.com/ahmadparvej/gearbest",
     demo:"https://gearbest-personal-clone.herokuapp.com/",
     tech:["React","Redux","Chakra-UI"],
