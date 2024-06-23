@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from "../../assets/timely.png";
+import IMG1 from "../../assets/ac-services-booking-system.png";
 import IMG2 from "../../assets/CodeEditor Collab (2).png";
 import IMG3 from "../../assets/Gearbest.png";
 
@@ -8,10 +8,10 @@ const data =[
   {
     id:1,
     image:IMG1,
-    title:"Timely.com clone",
-    github:"https://github.com/ahmadparvej/Timely-App",
-    demo:"https://timely-app-clone.netlify.app/",
-    tech:["React","Redux","Chakra-UI","MongoDB","Express"],
+    title:"AC Service Booking System",
+    github:"",
+    demo:"https://ac-technician.vercel.app/",
+    tech:["React","Next Js","Tailwind Css","MongoDB","Shadcn-UI"],
   },
   {
     id:2,

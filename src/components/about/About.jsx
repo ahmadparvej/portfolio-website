@@ -16,6 +16,11 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
+              <FaAward className="about__icon"/>
+              <h5>Experience</h5>
+              <small>2+ Years</small>
+            </article>
+            <article className="about__card">
               <GiSkills className="about__icon"/>
               <h5>Skills</h5>
               <small>10+ Professional</small>
@@ -25,14 +30,8 @@ const About = () => {
               <h5>Projects</h5>
               <small>4+ Completed</small>
             </article>
-            <article className="about__card">
-              <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>Enthusiastic Fresher</small>
-            </article>
           </div>
-          <p>An enthusiastic and result-driven Full-stack web developer dedicated to building optimized user-focused websites. Seeking a
-role wherein I can directly make an impact on the company's growth as well as my career.</p>
+          <p>An enthusiastic and results-driven Full-stack Web Developer with nearly 2 years of experience as a Software Engineer. Proven expertise in building optimized, user-focused websites and contributing to over three major projects. Seeking a challenging role where I can directly impact both the company's growth and my career development.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
