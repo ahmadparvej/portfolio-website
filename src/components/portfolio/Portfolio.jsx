@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from "../../assets/ac-services-booking-system.png";
 import IMG2 from "../../assets/CodeEditor Collab (2).png";
 import IMG3 from "../../assets/Gearbest.png";
+import IMG4 from "../../assets/boxcars.png";
 
 const data =[
   {
@@ -12,6 +13,16 @@ const data =[
     github:"",
     demo:"https://ac-technician.vercel.app/",
     tech:["React","Next Js","Tailwind Css","MongoDB","Shadcn-UI"],
+    role: "Full Stack Developer"
+  },
+  {
+    id:4,
+    image:IMG4,
+    title:"Boxcars",
+    github:"https://github.com/ahmadparvej/boxcar-react-responsive",
+    demo:"https://boxcar-react-responsive.vercel.app/",
+    tech:["React JS","Next JS","Shadcn-UI", "Tailwind-CSS"],
+    role: "Frontend Developer"
   },
   {
     id:2,
@@ -19,7 +30,8 @@ const data =[
     title:"Code Editor Collab",
     github:"https://github.com/ahmadparvej/online-pair-programming",
     demo:"https://code-together-realtime.herokuapp.com/",
-    tech:["React","Express","Socket.io"],
+    tech:["React","Express JS","Socket.io", "Node JS"],
+    role: "Frontend Developer"
   },
   {
     id:3,
@@ -27,9 +39,11 @@ const data =[
     title:"Gearbest.com clone",
     github:"https://github.com/ahmadparvej/gearbest",
     demo:"https://gearbest-personal-clone.herokuapp.com/",
-    tech:["React","Redux","Chakra-UI"],
+    tech:["React","Redux","Chakra-UI", "Node JS"],
+    role: "Frontend Developer"
   }
 ]
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -43,6 +57,7 @@ const Portfolio = () => {
             <img src={elem.image} alt="work" />
           </div>
           <h3>{elem.title}</h3>
+          <p className='portfolio__item-role'>My Role: <span>{elem.role}</span></p>
           <p className='portfolio__item-stack'>Tech Stack : <span>{elem.tech.join(" | ")}</span></p>
           <div className="portfolio__item-cta">
           <a href={elem.github} target="_blank" className="btn">Github</a>

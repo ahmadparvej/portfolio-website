@@ -21,8 +21,14 @@
 
 .portfolio__item h3{
     font-size: 1rem;
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
+
+.portfolio__item-role{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
 .portfolio__item-stack{
     font-size: 0.8rem;
     margin-bottom: 1rem;
