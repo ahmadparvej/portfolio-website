@@ -4,6 +4,7 @@ import IMG1 from "../../assets/ac-services-booking-system.png";
 import IMG2 from "../../assets/CodeEditor Collab (2).png";
 import IMG3 from "../../assets/Gearbest.png";
 import IMG4 from "../../assets/boxcars.png";
+import IMG5 from "../../assets/Snapdeal.png";
 
 const data =[
   {
@@ -41,6 +42,15 @@ const data =[
     demo:"https://gearbest-personal-clone.herokuapp.com/",
     tech:["React","Redux","Chakra-UI", "Node JS"],
     role: "Frontend Developer"
+  },
+  {
+    id:5,
+    image:IMG5,
+    title:"Snapdeal.com clone",
+    github:"https://github.com/AkshayPatil96/Snapdeal-Clone",
+    demo:"https://papaya-shortbread-8d7bc4.netlify.app/",
+    tech:["HTML","CSS","JavaScript", "DOM"],
+    role: "Frontend Developer"
   }
 ]
 
@@ -54,7 +64,7 @@ const Portfolio = () => {
           return (
           <article key={elem.id} className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={elem.image} alt="work" />
+            <img src={elem.image} alt="work" height="170" />
           </div>
           <h3>{elem.title}</h3>
           <p className='portfolio__item-role'>My Role: <span>{elem.role}</span></p>
