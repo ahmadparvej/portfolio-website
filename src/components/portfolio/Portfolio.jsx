@@ -29,7 +29,7 @@ const data =[
     image:IMG2,
     title:"Code Editor Collab",
     github:"https://github.com/ahmadparvej/online-pair-programming",
-    demo:"https://code-together-realtime.herokuapp.com/",
+    demo:"https://online-pair-programming.vercel.app/",
     tech:["React","Express JS","Socket.io", "Node JS"],
     role: "Frontend Developer"
   },
