@@ -38,6 +38,11 @@ header{
     flex-direction: column;
 }
 
+.text-light{
+    color: var(--color-light);
+    font-size: large;
+}
+
 /* =========== ME ============ */
 .me-container{
     display: flex;

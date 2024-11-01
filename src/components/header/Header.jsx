@@ -10,7 +10,8 @@ const Header = () => {
         <div className="iAm">
           <h5>Hello I'm</h5>
           <h1>Parvej Ahmad</h1>
-          <h5 className="text-light">Software Engineer at Cumulus System (Hitachi Group) | Full-Stack Web Developer</h5>
+          <h5 className="text-light">Full-Stack Web Developer</h5>
+          <h5 className="text-light">Worked as a Software Engineer at Hitachi</h5>
           <CTA/>
           <HeaderSocials/>
         </div>
