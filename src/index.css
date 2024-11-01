@@ -33,10 +33,13 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url('./assets//bg-texture.png'); */
+    background-color: var(--color-bg); /* Light background to resemble paper */
+    background-image: 
+        linear-gradient(rgba(200, 200, 200, 0.1) 1px, transparent 1px), /* Horizontal lines */
+        linear-gradient(90deg, rgba(200, 200, 200, 0.1) 1px, transparent 1px); /* Vertical lines */
+    background-size: 30px 30px; /* Adjust grid size to your preference */
 }
 
 /* =============== GENERAL STYLES =============== */

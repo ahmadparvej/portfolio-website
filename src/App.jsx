@@ -7,17 +7,19 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import './index.css'
+
 const App = () => {
   return (
-    <>
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
-    </>
+    <div className="notebook-background">
+        <Header/>
+        <Nav/>
+        <About/>
+        <Experience/>
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+    </div>
   )
 }
 
